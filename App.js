@@ -30,7 +30,7 @@ class App extends React.Component {
       <React.Fragment>
         <Header items={this.state.items} />
         <ListItems
-          item={this.state.items}
+          items={this.state.items}
           changeStatus={this.handleChangeStatus}
         />
       </React.Fragment>
